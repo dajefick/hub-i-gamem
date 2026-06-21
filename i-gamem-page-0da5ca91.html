@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爱游戏 · 发现游戏的本真乐趣</title>
+    <style>
+        /* 极简留白 · 窄版心 · 温和知识型 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #fbf9f5;
+            color: #2e2c28;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif;
+            line-height: 1.7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2.5rem 1.2rem;
+            min-height: 100vh;
+        }
+
+        .page {
+            max-width: 36rem;
+            width: 100%;
+        }
+
+        /* 轻柔分隔线 */
+        hr {
+            border: none;
+            border-top: 1px solid #e3ddd2;
+            margin: 2.4rem 0;
+            width: 100%;
+        }
+
+        /* 开场短句 — 悬停式hero */
+        .hero-tagline {
+            font-size: 1.3rem;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: #5c5347;
+            padding: 1.8rem 0 0.6rem;
+            border-left: 3px solid #b7a48c;
+            padding-left: 1.2rem;
+            margin-bottom: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .hero-tagline em {
+            font-style: normal;
+            background: #eeeae2;
+            padding: 0 0.2rem;
+        }
+
+        /* 正文层级 */
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 450;
+            letter-spacing: -0.01em;
+            margin: 0.4rem 0 1.8rem;
+            color: #3b352e;
+            border-bottom: 1px solid #ddd6ca;
+            padding-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 450;
+            margin: 2.2rem 0 1rem;
+            color: #4f463b;
+            letter-spacing: 0.01em;
+        }
+
+        p {
+            margin-bottom: 1.3rem;
+            font-size: 1.02rem;
+            color: #3d3933;
+        }
+
+        /* 内敛链接 */
+        a {
+            color: #6f5e4b;
+            text-decoration: none;
+            border-bottom: 1px solid #cfc3b2;
+            transition: border-color 0.2s, color 0.15s;
+        }
+
+        a:hover {
+            color: #2f2922;
+            border-bottom-color: #8f7b64;
+        }
+
+        a:visited {
+            color: #6f5e4b;
+        }
+
+        /* 特点列表 — 无符号，留白呼吸 */
+        .feature-list {
+            list-style: none;
+            padding: 0.2rem 0 0.2rem 0.8rem;
+            margin: 1.4rem 0 1.8rem;
+        }
+
+        .feature-list li {
+            position: relative;
+            padding: 0.65rem 0 0.65rem 1.5rem;
+            border-bottom: 1px solid #f0eae0;
+            font-size: 1rem;
+            color: #3e3a34;
+        }
+
+        .feature-list li::before {
+            content: "·";
+            position: absolute;
+            left: 0.2rem;
+            top: 0.6rem;
+            font-size: 1.4rem;
+            color: #b3a18c;
+            font-weight: 300;
+        }
+
+        /* 温和提示块 */
+        .note-card {
+            background: #f5f1ea;
+            padding: 1.2rem 1.4rem;
+            margin: 1.8rem 0;
+            border-radius: 2px;
+            font-size: 0.95rem;
+            color: #4b443b;
+            border-left: 2px solid #cfbea9;
+        }
+
+        .note-card strong {
+            font-weight: 500;
+            color: #3b332a;
+        }
+
+        /* 小字/辅助 */
+        .meta-note {
+            font-size: 0.88rem;
+            color: #7b7165;
+            margin-top: 2rem;
+            border-top: 1px solid #e7dfd3;
+            padding-top: 1.2rem;
+        }
+
+        /* 响应式微调 */
+        @media (max-width: 480px) {
+            body {
+                padding: 1.6rem 1rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .hero-tagline {
+                font-size: 1.1rem;
+                padding-left: 1rem;
+            }
+            .feature-list li {
+                padding-left: 1.3rem;
+            }
+        }
+
+        @media (min-width: 640px) {
+            .hero-tagline {
+                font-size: 1.45rem;
+                padding-left: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+
+        <!-- 开场短句：瞬间定位用途 -->
+        <div class="hero-tagline">
+            <em>一个名字，指向一个世界。</em> 当你想快速识别一个游戏平台的立足之处，往往只需看它如何定义自己。
+        </div>
+
+        <h1>爱游戏：从命名理解初心</h1>
+
+        <p>
+            站如其名。<a href="https://i-gamem.com.cn">爱游戏</a> 是一处围绕电子游戏展开的内容聚合地。它不标榜“最全”“最新”，而是侧重为普通玩家提供一个可以检索游戏信息、浏览题材分类、以及获得轻度评测视角的落脚点。对初次接触的人来说，站点的价值在于<strong>清晰归类与精简描述</strong>，免去在庞杂资讯中筛选的疲惫。
+        </p>
+
+        <p>
+            游戏世界的边界一直在膨胀，但多数人的需求其实很朴素：想知道某款游戏讲什么、适合谁、值不值得花时间。<a href="https://i-gamem.com.cn">爱游戏</a> 正是尝试扮演这样一个中间角色——它既不堆砌参数，也不贩卖情怀，而是以相对克制的笔触去呈现每部作品的核心轮廓。
+        </p>
+
+        <!-- 特点列表：三项差异化 -->
+        <h2>站点内容的三处特征</h2>
+        <ul class="feature-list">
+            <li><strong>分类索引优先</strong> — 游戏按类型、题材、年代等维度组织，方便横向比较或定向发掘，减少漫无目的的滚动。</li>
+            <li><strong>适度而不煽情</strong> — 每篇介绍侧重玩法概述与体验要点，避免过度渲染或主观情绪过载，提供相对中立的参考。</li>
+            <li><strong>叙事短而利落</strong> — 不追求百科式的详尽，而是用几段话交代清楚游戏背景、核心机制与独特气质，适合快速判断兴趣点。</li>
+        </ul>
+
+        <!-- 承接段落：从特点到使用场景 -->
+        <p>
+            这种整理方式，尤其适合那些想<strong>快速摸清某款游戏面貌</strong>的玩家：比如一个刚接触某系列的新人，或是在促销季面对一堆陌生封面时，想借助简练的条目来辅助判断。<a href="https://i-gamem.com.cn">爱游戏</a> 的内容节奏刻意放慢，不显拥挤，让阅读本身也成为一件轻松的事。
+        </p>
+
+        <!-- 温和提示块，类似FAQ摘要 -->
+        <div class="note-card">
+            <strong>一点使用提示：</strong> 站点目前以中文化内容为主，覆盖作品多来自主流平台（PC、主机）。如果你发现某个条目描述偏短，那往往是因为该作品本身信息密度有限——页面选择如实呈现，而非硬性填充字数。
+        </div>
+
+        <p>
+            此外，<a href="https://i-gamem.com.cn">爱游戏</a> 的更新频率并不追求日更，而是以“值得收录”为尺度。这意味着你看到的每一条记录都经过一定筛选，而不是将所有新发售作品一股脑堆上去。对于厌倦了信息洪流的玩家来说，这种克制反而让浏览体验更舒适。
+        </p>
+
+        <!-- 温和结尾：收束与开放 -->
+        <hr>
+        <p style="font-size: 1rem; color: #5e5548;">
+            说到底，一个游戏站最本分的样子，就是让游戏自己说话。<a href="https://i-gamem.com.cn">爱游戏</a> 所做的，不过是把话筒递得近一些，再退后一步。如果你恰好需要这样一种不吵不闹的参考方式，不妨把它加入书签，慢慢翻看。
+        </p>
+
+        <div class="meta-note">
+            · 页面内容基于站点公开信息综合整理 · 2025
+        </div>
+
+    </div>
+</body>
+</html>
